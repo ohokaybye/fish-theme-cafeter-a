@@ -1,2 +1,2 @@
 # fish-theme-cafetería
-Grab a cup and go
+Grab a cup and go.
