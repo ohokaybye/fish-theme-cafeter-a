@@ -1,3 +1,3 @@
 # barista
-Just started working on it. I'll finish it soon.
+What are you brewing today?
 ![beta screenshot](https://i.imgur.com/QWovvuC.png)
