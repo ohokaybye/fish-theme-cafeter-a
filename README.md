@@ -11,10 +11,11 @@ Inspired by the idan theme.
 
 #### Left Prompt
 Truncated CWD (just the current folder name)
+
 Git branch and dirty state (if applicable)
 
 #### Right Prompt
 Full CWD path
 
 #### Font 
-Azeret Mono (https://fonts.google.com/specimen/Azeret+Mono)
+[Azeret Mono](https://fonts.google.com/specimen/Azeret+Mono)
