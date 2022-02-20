@@ -33,8 +33,8 @@ if [ (_is_git_dirty) ]
 else
 	set git_info $matcha$git_branch " "
 end
+	echo -n -s ' ' $git_info
 
-	echo -n -s ' ' $git_info$mocha
 end
 
 # terminate with character
