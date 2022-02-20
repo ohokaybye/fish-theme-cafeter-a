@@ -20,6 +20,13 @@ function fish_title
 	echo "hey $USER, what's brewing?"
 end
 
+# additional color matching
+
+        set fish_color_command 988165
+	set fish_color_param E2CDBA
+	set fish_color_error DC6200
+	set fish_color_quote 868D56
+
 # display current directory name
 	echo $chai@$mocha$hostname
 	#echo -n -s $mocha$short " "
