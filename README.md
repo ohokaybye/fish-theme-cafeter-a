@@ -1,3 +1,3 @@
 # barista
-What are you brewing today?
-![beta screenshot](https://i.imgur.com/0QSv4oo.png)
+what's brewing?
+![beta screenshot](https://i.imgur.com/XYRgqSI.png)
