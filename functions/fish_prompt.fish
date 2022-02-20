@@ -2,11 +2,11 @@
 # left side
 
 function _git_branch_name
-  echo (command git symbolic-ref HEAD 2> /dev/null | sed -e 's|^refs/heads/||')
+	echo (command git symbolic-ref HEAD 2> /dev/null | sed -e 's|^refs/heads/||')
 end
 
 function _is_git_dirty
-  echo (command git status -s --ignore-submodules=dirty 2> /dev/null)
+	echo (command git status -s --ignore-submodules=dirty 2> /dev/null)
 end
 
 function fish_prompt
@@ -17,20 +17,18 @@ function fish_prompt
 	set -l short (basename (prompt_pwd))
 
 function fish_title
-	#echo '☕'
-	#echo $USER@$hostname
-	#echo (basename (prompt_pwd))
+	echo "hey $USER, what's brewing?"
 end
 
 # display current directory name
-	echo $mocha$USER@$chai$hostname
+	echo $chai@$mocha$hostname
 	#echo -n -s $mocha$short " "
 
 # show git branch and dirty state
-if 	[ (_git_branch_name) ]
+if [ (_git_branch_name) ]
 	set -l git_branch (_git_branch_name)
 
-if 	[ (_is_git_dirty) ]
+if [ (_is_git_dirty) ]
 	set git_info $thai$git_branch " "
 else
 	set git_info $matcha$git_branch " "
